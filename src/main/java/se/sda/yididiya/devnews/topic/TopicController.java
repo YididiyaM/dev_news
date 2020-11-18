@@ -6,7 +6,7 @@ import org.springframework.web.server.ResponseStatusException;
 import java.util.List;
 
 @RestController
-@RequestMapping("/topics")
+@RequestMapping("/")
 public class TopicController {
 
     private TopicService topicService;
